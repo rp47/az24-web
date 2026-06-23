@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/health', (req, res) =>
-    res.json({ status: 'ok', time: new Date().toISOString() })
+    res.json({ status: 'oks', time: new Date().toISOString() })
 );
 
 app.listen(port, () => {
